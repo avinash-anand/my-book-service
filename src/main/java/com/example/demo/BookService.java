@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class BookService {
 
-    private static List<Book> bookList = new ArrayList<>();;
+    private static List<Book> bookList = new ArrayList<>();
     static {
         for (int i = 1; i <= 5; i++) {
             Book book = new Book(i, "Book - " + i);

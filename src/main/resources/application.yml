@@ -1,6 +1,8 @@
 spring:
   application:
     name: my-book-service
+  zipkin:
+    base-url: http://localhost:7882/
 
 eureka:
   client:
@@ -9,3 +11,4 @@ eureka:
       
 server:
   port: 7880
+  
